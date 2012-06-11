@@ -66,7 +66,7 @@ def list_files(directories): #list files in remote directory
 #start of program
 
 directories = {} #dictonary of directories that grab_files finds    
-azure = ftputil.FTPHost('azure.feralhosting.com','dylanpierce','uC04rSmfonvJ0XhI')
+azure = ftputil.FTPHost('<ftp address>','<username>','<password>')
 azure.chdir('www')
 azure.getcwd()
 print 'Listing files...'
